@@ -1,0 +1,20 @@
+# Datasets — download separately per each README, don't commit large data
+**/data/*
+!**/data/.gitkeep
+
+# Trained models / generated artifacts
+**/models/*.keras
+**/models/*.joblib
+**/models/*.png
+**/models/training_history.json
+!**/models/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
